@@ -6,8 +6,11 @@ import com.yoon.sku.mysku.databinding.ActivityLibraryMainBinding
 
 class LibraryMainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLibraryMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_library_main)
+        binding = ActivityLibraryMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
     }
 }
