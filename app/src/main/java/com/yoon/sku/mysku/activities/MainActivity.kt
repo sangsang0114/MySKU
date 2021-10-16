@@ -1,4 +1,4 @@
-package com.yoon.sku.mysku
+package com.yoon.sku.mysku.activities
 
 import android.content.Intent
 import android.os.Bundle

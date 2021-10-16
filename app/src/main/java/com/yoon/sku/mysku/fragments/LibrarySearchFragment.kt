@@ -1,4 +1,4 @@
-package com.yoon.sku.mysku
+package com.yoon.sku.mysku.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,9 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.yoon.sku.mysku.Test
 import com.yoon.sku.mysku.databinding.FragmentLibrarySearchBinding
-import com.yoon.sku.mysku.librarydata.Book
-import com.yoon.sku.mysku.librarydata.BookAdapter
+import com.yoon.sku.mysku.models.local.Book
+import com.yoon.sku.mysku.models.local.BookAdapter
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

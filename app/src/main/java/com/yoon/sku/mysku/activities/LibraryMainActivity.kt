@@ -1,4 +1,4 @@
-package com.yoon.sku.mysku
+package com.yoon.sku.mysku.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LibraryMainActivity">
+    tools:context=".activities.LibraryMainActivity">
 
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.yoon.sku.mysku.LibrarySearchFragment"
+        android:name="com.yoon.sku.mysku.fragments.LibrarySearchFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
